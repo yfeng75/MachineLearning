@@ -86,7 +86,7 @@ please contact Sundeep Rangan at <srangan@nyu.edu>.
     [[pdf]](./lectures/Lect06_LogisticReg.pdf)
     [[Powerpoint]](./lectures/Lect06_LogisticReg.pptx)        
     * Demo: [Breast cancer diagnosis via logistic regression](./unit06_logistic/demo_breast_cancer.ipynb)
-    * Homework (Due on March 17, 23:59 PM ET) 
+    * Homework (Due on March 19, 23:59 PM ET) 
         * Lab: [Genetic analysis of Down's syndrome in mice](./unit06_logistic/lab_gene_partial.ipynb)
         * Problems: [[pdf]](./unit06_logistic/prob/prob_logistic.pdf)
 
@@ -96,7 +96,7 @@ please contact Sundeep Rangan at <srangan@nyu.edu>.
     [[Powerpoint]](./lectures/Lect07_Optim.pptx)     
     * Demo 1: [Computing gradients](./unit07_optim/demo1_computing_gradients.ipynb)
     * Demo 2: [Simple gradient descent optimization](./unit07_optim/demo2_grad_descent.ipynb)    
-    * Homework (Due on March 24, 23:59 PM ET) 
+    * Homework (Due on March 26, 23:59 PM ET) 
         * Lab: [Nonlinear least squares material modeling](./unit07_optim/lab_nlls_partial.ipynb)
         * Problems: [[pdf]](./unit07_optim/prob/prob_optim.pdf)
 
@@ -121,53 +121,67 @@ please contact Sundeep Rangan at <srangan@nyu.edu>.
         * Problems: [[pdf]](./unit09_neural/prob/prob_neural.pdf)
 
 
-
-**Links below are not available yet.**
-
-
-
-
-
-
-
-
-    
-
-    
-
-
-
 * [Unit 10:  Convolutional and deep networks](./unit10_cnn/readme.md)
     * Lecture:  Convolutional and deep networks
     [[pdf]](./lectures/Lect10_ConvNet.pdf)
     [[Powerpoint]](./lectures/Lect10_ConvNet.pptx)         
-    * [Setting up a GPU instance](./GCP/gpu_setup.md) (Recommended)
-    * [Lecture videos](./unit10_cnn/online/readme.md)   
+    * [Setting up a GPU instance](./GCP/getting_started.md) (Recommended)
     * [Demo 1: 2D convolutions and convolutional layers in keras](./unit10_cnn/demo1_convolutions.ipynb)
     * [Demo 2: Creating an image set using the Flickr API](./unit10_cnn/demo2_flickr_images.ipynb)
     * [Demo 3: Exploring the deep VGG16 network](./unit10_cnn/demo3_vgg16.ipynb)
     * [Demo 4: Building an image classifier using CIFAR10 dataset](./unit10_cnn/demo4_classifier.ipynb)
     * [Demo 5: Building an autoencoder for image denoising using CIFAR10 dataset](./unit10_cnn/demo5_autoencoder.ipynb)
-    * [Lab:  Transfer learning with a pre-trained network](./unit10_cnn/lab_fine_tune_partial.ipynb)
+    * Homework (Due on April 26, 23:59 PM ET) 
+        * Lab: [Transfer learning with a pre-trained network](./unit10_cnn/lab_fine_tune_partial.ipynb)
     (GPU recommended)
-    * Problems [[pdf]](./unit10_cnn/prob/prob_cnn.pdf) [[Latex]](./unit10_cnn/prob/prob_cnn.tex)
+        * Problems: [[pdf]](./unit10_cnn/prob/prob_cnn.pdf)
+
 * [Unit 11:  PCA](./pca/readme.md)
-    * Lecture:  PCA [[pdf]](./lectures/Lect11_PCA.pdf), Modifed Note [[pdf]](./lectures/Lect11_PCA_modified.pdf)
-    [[Powerpoint]](./lectures/Lect11_PCA_modified.pptx)         
-    * [Lecture videos](./unit11_pca/online/readme.md)   
+    * Lecture:  PCA [[pdf]](./lectures/Lect11_PCA.pdf) [[Powerpoint]](./lectures/Lect11_PCA.pptx)          
     * [Demo 1:  PCA eigen-faces-SVM](./unit11_pca/demo1_eigen_face.ipynb)
     * [Demo 2:  Low-rank matrix completion via embedding layers](./unit11_pca/demo2_low_rank.ipynb)
-    * [Lab:  PCA with hyper-parameter optimization](./unit11_pca/lab_wine_partial.ipynb)
-    * Problems [[pdf]](./unit11_pca/prob/prob_PCA.pdf) [[Latex]](./unit11_pca/prob/prob_PCA.tex)
+    * Homework (Due on May 3, 23:59 PM ET) 
+        * Lab: [PCA with hyper-parameter optimization](./unit11_pca/lab_wine_partial.ipynb)
+        * Problems: [[pdf]](./unit11_pca/prob/prob_PCA.pdf)
+
 * [Unit 12:  Clustering and EM](./unit12_cluster/readme.md)
     * Lecture:  Clustering and EM [[pdf]](./lectures/Lect12_Clustering.pdf)
     [[Powerpoint]](./lectures/Lect12_Clustering.pptx)         
     * [Demo 1: Document clustering via k-means and latent semantic analysis](./unit12_cluster/demo1_doc_cluster.ipynb)
-    * [Demo 2: Color quantization via k-means and EM-GMM](./unit12_cluster/demo2_kmeans_GMM_color_quantization.ipynb)    
-    * Homework [[pdf]](./unit12_cluster/prob/prob_clustering.pdf) [[Latex]](./unit12_cluster/prob/prob_clustering.tex)
+    * [Demo 2: Color quantization via k-means and EM-GMM](./unit12_cluster/demo2_kmeans_GMM_color_quantization.ipynb)  
+    * Homework (Due on May 10, 23:59 PM ET)   
+        * Problems: [[pdf]](./unit12_cluster/prob/prob_clustering.pdf)
+        
 * Unit 13:  Decision Trees and Random Forest
     * Lecture:  Decision tree and random foreast [[pdf]](./lectures/Lect13_Trees.pdf)
     [[Powerpoint]](./lectures/Lect13_Trees.pptx)         
     * [Demo: Prediction of temperature using decision tree and random forest](./unit13_tree/decision_tree_and_random_forest.ipynb)
-    * Homework [[pdf]](./unit13_tree/prob/prob_tree.pdf) [[Latex]](./unit13_tree/prob/prob_tree.tex)
+    * Homework (***Will NOT be graded***)   
+        * Homework [[pdf]](./unit13_tree/prob/prob_tree.pdf)
+
+* [Course projects](./projects/readme.md)
+    * Course project is OPTIONAL. It consists 20% of your total grade. If you choose not to do it, I will take the higher grade of your midterm and final exams, and use it for your project grade.
+    * Due on the Friday after the final exam. Up to 2 students in a project group.
+    * List of suggested project topics can be found in a directory named projects on the course repo. 
+        * Recently published paper + existing code as a starting point for your projects, you need to extend it.
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
 
